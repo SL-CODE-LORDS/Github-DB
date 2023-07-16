@@ -1,0 +1,29 @@
+{
+  "name": "@sl-code-lords/github-db",
+  "version": "1.0.0",
+  "description": "github repository database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SL-CODE-LORDS/Github-DB.git"
+  },
+  "keywords": [
+    "github",
+    "github-db",
+    "db",
+    "database"
+  ],
+  "author": "Ravindu Manoj",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SL-CODE-LORDS/Github-DB/issues"
+  },
+  "homepage": "https://github.com/SL-CODE-LORDS/Github-DB#readme",
+  "dependencies": {
+    "@sl-code-lords/js-extra-types": "^0.0.2-dev",
+    "axios": "^1.4.0"
+  }
+}

@@ -51,6 +51,8 @@ npm i @sl-code-lords/github-db
 
 ## 🎈 Usage <a name="usage"></a>
 
+- first you need to get [github access token](https://github.com/settings/tokens/new)
+
 ```ts
 var Github_db = require('@sl-code-lords/github-db')
 var config={ github_token: 'token', user_name:'user_name', repo:'test_github_db',is_private_repo:true }

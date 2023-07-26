@@ -12,30 +12,33 @@ class Github_db{
      * @param model_name   name of your model
      * @param commit_message main commit message
      * @param path directory path of your Model
+     * @param password if need encryption.. use password
      * @returns Model Class
      */
-    stringModel(model_name,commit_message,path = 'Models/') {
-        return this._git.Model(model_name,String,commit_message,path)
+    stringModel(model_name,commit_message,path = 'Models/',password='') {
+        return this._git.Model(model_name,String,commit_message,path,password)
     }
      /**
      * 
      * @param model_name   name of your model
      * @param commit_message main commit message
      * @param path directory path of your Model
+     * @param password if need encryption.. use password
      * @returns Model Class
      */
-    objectModel(model_name,commit_message,path = 'Models/') {
-        return this._git.Model(model_name,Object,commit_message,path)
+    objectModel(model_name,commit_message,path = 'Models/',password='') {
+        return this._git.Model(model_name,Object,commit_message,path,password)
     }
      /**
      * 
      * @param model_name   name of your model
      * @param commit_message main commit message
      * @param path directory path of your Model
+     * @param password if need encryption.. use password
      * @returns Model Class
      */
-    arrayModel(model_name,commit_message,path = 'Models/') {
-        return this._git.Model(model_name,Array,commit_message,path)
+    arrayModel(model_name,commit_message,path = 'Models/',password='') {
+        return this._git.Model(model_name,Array,commit_message,path,password)
     }
      /**
      * 

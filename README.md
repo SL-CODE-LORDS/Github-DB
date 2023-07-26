@@ -106,8 +106,10 @@ true
 ## String Model
 
 ```ts
+var password = '' // password for enc file method
+
 //init new String Model
-var session = git.stringModel('session','Init','DB/')
+var session = git.stringModel('session','Init','DB/',password)
 
 // add new string
 var add = await session.update_data('Hello I Am Ravindu Manoj -')
@@ -144,8 +146,10 @@ true
 ## Array Model
 
 ```ts
+var password = '' // password for enc file method
+
 //init new Array Model
-var list = git.arrayModel('list','Init','DB/')
+var list = git.arrayModel('list','Init','DB/',password)
 
 // add new array
 var add = await list.update_data([1,'mango'])
@@ -182,8 +186,10 @@ true
 ## Object Model
 
 ```ts
+var password = '' // password for enc file method
+
 //init new Object Model
-var item = git.objectModel('item','Init','DB/')
+var item = git.objectModel('item','Init','DB/',password)
 
 // add new object
 var add = await item.update_data({name : 'Ravindu',age:'21'})
